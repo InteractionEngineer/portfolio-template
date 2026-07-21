@@ -4,6 +4,7 @@
 
   export let title: string;
   export let location: string;
+  export let locationUrl: string | undefined = undefined;
   export let description: string;
   export let dateStart: Date;
   export let dateEnd: Date | undefined;
@@ -31,8 +32,11 @@
         <div class="flex flex-col">
           <p class="font-medium text-gray-100 title">
             {title}
-            <!-- TODO: Add URL to collection, if applies -->
-            <a href="/" class="font-medium text-gray-100">@ {location}</a>
+            {#if locationUrl}
+              <a href={locationUrl} target="_blank" rel="noopener noreferrer" class="font-medium text-gray-100">@ {location}</a>
+            {:else}
+              <span class="font-medium text-gray-100">@ {location}</span>
+            {/if}
           </p>
           <p class="text-sm text-gray-300">{description}</p>
         </div>

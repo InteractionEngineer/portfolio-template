@@ -36,6 +36,7 @@
       {language}
       title={entry.title}
       location={entry.location}
+      locationUrl={entry.locationUrl}
       description={entry.description}
       dateStart={entry.dateStart}
       dateEnd={entry.dateEnd}

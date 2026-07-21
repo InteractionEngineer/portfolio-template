@@ -1,8 +1,8 @@
 {
-    "title": "Projekt 1",
-    "id": 1,
-    "subtitle": "Dies ist ein Untertitel des Projekts",
-    "projectDuration": "3 Monate im Jahr 2024",
+    "title": "Projekt 3",
+    "id": 3,
+    "subtitle": "Beispiel für linktype \"pdf\"",
+    "projectDuration": "~ 40 Personentage im Jahr 2023",
     "team": "Max Mustermann (Entwicklung), Maxine Musterfrau (Design)",
     "myParts": [
         "Konzeption und Anforderungsermittlung",
@@ -16,18 +16,18 @@
         "alt": "Archivfoto 1"
     },
     "tags": [
-        "Interaktionsdesign",
-        "Webentwicklung",
-        "User Experience",
-        "Frontend Entwicklung"
+        "Augmented Reality",
+        "Swift",
+        "SwiftUI",
+        "Interaktionsdesign"
     ],
     "techStack": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "Swift",
+        "SwiftUI",
+        "ARKit"
     ],
-    "url": "https://github.com/",
-    "linktype": "repository",
+    "url": "https://example.com/dokumentation.pdf",
+    "linktype": "pdf",
     "sections": [
         {
             "title": "Herausforderung",

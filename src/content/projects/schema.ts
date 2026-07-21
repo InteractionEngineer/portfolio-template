@@ -8,24 +8,25 @@ export const projects = defineCollection({
         techStack: z.array(z.string()).optional(),
         projectDuration: z.string(),
         team: z.string(),
+        myParts: z.array(z.string()).optional(),
         longDescription: z.string(),
         shortDescription: z.string(),
+        // TODO: Change from string to enum
         tags: z.array(z.string()),
         thumbnail: z.object({
             src: z.string(),
             alt: z.string(),
         }),
         url: z.string().optional(),
-        // TODO: Change from string to enum (repository, pdf, demo)
+        // TODO: Change from string to enum (repository, pdf, demo, iframe, product)
         linktype: z.string().optional(),
-        content: z.array(z.object({
-            title: z.string().optional(),
-            body: z.string().optional(),
-            graphics: z.array(z.object({
-                src: z.string(),
-                alt: z.string(),
-            })).optional(),
+        sections: z.array(z.object({
+            title: z.string(),
+            body: z.string(),
         })).optional(),
-
+        images: z.array(z.object({
+            src: z.string(),
+            alt: z.string(),
+        })).optional()
     }),
 });

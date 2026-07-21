@@ -1,45 +1,58 @@
 {
-  "title": "Project 2",
-  "id": 2,
-  
-  "longDescription": "This is a project description.<br/> It can be as long as you want it to be. It can contain multiple paragraphs and even lists. It can contain links to other pages or websites. It can contain images and videos. It can contain anything you want.",
+    "title": "Project 2",
+    "id": 2,
+    "subtitle": "Example for linktype \"demo\"",
+    "projectDuration": "6 weeks in the 2024/25 winter term",
+    "team": "John Doe (engineering), Jane Doe (design)",
+    "myParts": [
+        "Concept and requirements gathering",
+        "Frontend implementation",
+        "User testing and analysis"
+    ],
+    "longDescription": "How the project started: what was it about, for whom, and in which context? Two or three sentences are enough here – the detail follows in the sections below.<br/> HTML is allowed, so you can add line breaks and links.",
     "shortDescription": "Very short description, capturing the essence of the project in a few words.",
     "thumbnail": {
-    "src": "/siteAssets/stockfoto1.jpg",
-    "alt": "Stock photo 1"
+        "src": "/siteAssets/stockfoto1.jpg",
+        "alt": "Stock photo"
     },
-  "tags": [
-    "Web Development",
-    "Interaction Design",
-    "User Experience",
-    "User Interface",
-    "Frontend Development",
-    "Backend Development"
-  ],
-  "url": "https://github.com",
-  "team": "John Doe, Jane Doe",
-  "subtitle": "This is a project subtitle",
-  "techStack" : [
-    "HTML",
-    "CSS",
-    "JavaScript"
-  ],
-  "projectDuration" : "3 months",
-  "graphics": [
-    {
-      "src": "/siteAssets/stockfoto1.jpg",
-      "alt": "Stock photo 1",
-      "section": 1
-    },
-    {
-      "src": "/siteAssets/stockfoto2.jpg",
-      "alt": "Stock photo 2",
-      "section": 2
-    },
-    {
-      "src": "/siteAssets/stockfoto3.jpg",
-      "alt": "Stock photo 3",
-      "section": 3
-    }
-  ]
+    "tags": [
+        "Mixed Reality",
+        "Unity",
+        "C#",
+        "Game Design"
+    ],
+    "techStack": [
+        "Unity",
+        "C#"
+    ],
+    "url": "https://example.com/",
+    "linktype": "demo",
+    "sections": [
+        {
+            "title": "Challenge",
+            "body": "Which problem needed solving, and why was it hard? Describe the starting point, the audience and the constraints you worked under."
+        },
+        {
+            "title": "Approach",
+            "body": "How did you go about it? Which decisions did you make and why? This is where your own contribution belongs – methods, iterations, and the things you discarded."
+        },
+        {
+            "title": "Outcome",
+            "body": "What came out of it, and what did it achieve? Measurable results are strong, but qualitative impact counts just as much."
+        }
+    ],
+    "images": [
+        {
+            "src": "/siteAssets/stockfoto1.jpg",
+            "alt": "Caption: shown below the image and in the lightbox."
+        },
+        {
+            "src": "/siteAssets/stockfoto2.jpg",
+            "alt": "Describe what can be seen – this doubles as the accessibility text."
+        },
+        {
+            "src": "/siteAssets/stockfoto3.jpg",
+            "alt": "Add as many images as you like, they render as a gallery."
+        }
+    ]
 }

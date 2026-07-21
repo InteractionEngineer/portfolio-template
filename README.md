@@ -51,5 +51,19 @@ Das liegt daran, dass das Routing von Astro für die Pfadbildung unbedingt entsp
 
 In diesen seitenbezogenen Ordnern ist je eine `schema.ts` enthalten, die die Struktur vorgibt. Auf selber Ebene gibt es für **jede** Sprache (auch die `defaultLang`) einen weiteren Ordner, in denen ein `data.json` liegt, das Texte und Bilder (als Verlinkung zum `public/` Verzeichnis) bereitstellt.
 
+### Aufbau eines Projekts
+
+Damit Projektseiten nicht zur Textwand werden, gibt das Schema eine Erzählstruktur vor. Die Beispielprojekte beantworten in `sections` durchgängig dieselben drei Fragen:
+
+1. **Herausforderung** – Welches Problem sollte gelöst werden, für wen, unter welchen Randbedingungen?
+2. **Herangehensweise** – Wie bist Du vorgegangen, welche Entscheidungen hast Du getroffen und warum?
+3. **Ergebnis** – Was ist entstanden und was hat es bewirkt?
+
+Dazu kommen zwei Felder, die sich in Teamprojekten besonders lohnen: `myParts` listet Deinen eigenen Anteil als Aufzählung über der Beschreibung, `images` ist die Bildergalerie des Projekts (der `alt`-Text ist gleichzeitig die sichtbare Bildunterschrift).
+
+Der Button unter dem Projekt richtet sich nach `linktype`: `pdf`, `demo`, `product` oder `iframe` (bettet die `url` direkt ein). Ohne passenden Wert wird auf GitHub verlinkt.
+
+**Wichtig:** Der Dateiname eines Projekts ist sein URL-Slug. Jedes Projekt muss deshalb in **jedem** Sprachordner unter demselben Dateinamen liegen, sonst führt der Sprachumschalter auf der Detailseite ins Leere.
+
 **Noch ein Hinweis:** Die rechtlichen Seiten (Impressum und Datenschutzerklärung) sind zwar individualisiert, aber nicht internationalisiert. Wir können keine Verantwortung für die Richtigkeit oder Vollständigkeit dieser Dokumente gewährleisten, schon gar nicht für andere Länder als Deutschland - deshalb sollte sich hier bitte jeder selbst ein Bild machen und zu einer eigenen Lösung finden.
 

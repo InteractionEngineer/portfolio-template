@@ -1,8 +1,8 @@
 {
-    "title": "Project 1",
-    "id": 1,
-    "subtitle": "This is a project subtitle",
-    "projectDuration": "3 months in 2024",
+    "title": "Project 3",
+    "id": 3,
+    "subtitle": "Example for linktype \"pdf\"",
+    "projectDuration": "~ 40 person-days in 2023",
     "team": "John Doe (engineering), Jane Doe (design)",
     "myParts": [
         "Concept and requirements gathering",
@@ -16,18 +16,18 @@
         "alt": "Stock photo"
     },
     "tags": [
-        "Interaction Design",
-        "Web Development",
-        "User Experience",
-        "Frontend Development"
+        "Augmented Reality",
+        "Swift",
+        "SwiftUI",
+        "Interaction Design"
     ],
     "techStack": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "Swift",
+        "SwiftUI",
+        "ARKit"
     ],
-    "url": "https://github.com/",
-    "linktype": "repository",
+    "url": "https://example.com/dokumentation.pdf",
+    "linktype": "pdf",
     "sections": [
         {
             "title": "Challenge",

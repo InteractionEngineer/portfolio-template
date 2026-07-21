@@ -37,13 +37,18 @@ const fromDict = useTranslations(lang);
             {about.data.introduction}
           </p>
         </div>
-        <div class="flex flex-col mb-8 lg:mb-0 xl:ml-8 justify-start h-full">
+        <!-- Skills stehen auf breiten Viewports neben dem Intro, auf schmalen darunter (siehe xl:hidden-Block) -->
+        <div class="xl:flex flex-col mb-8 lg:mb-0 xl:ml-8 justify-start h-full hidden">
           <h2 class="text-xl text-gray-100 mb-4 lg:mt-4">{fromDict('about.section.skills')}</h2>
           <div class="min-w-72"><TagGrid language={lang} /></div>
         </div>
       </div>
       <div class="mb-8">
         <p class="text-md text-gray-100 py-2">{about.data.elaboration}</p>
+      </div>
+      <div class="xl:hidden mb-8">
+        <h2 class="text-xl text-gray-100 mb-4 lg:mt-4">{fromDict('about.section.skills')}</h2>
+        <div class="min-w-72"><TagGrid language={lang} /></div>
       </div>
       <!-- TODO: adjust title content as needed -->
       <h2 class="text-xl text-gray-100 mb-4">{fromDict('about.section.timeline')}</h2>

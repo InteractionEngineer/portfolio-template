@@ -1,59 +1,58 @@
 {
-  "title": "Projekt 2",
-  "id": 2,
-  "longDescription": "Dies ist eine Projektbeschreibung <br/> Sie kann so lang sein, wie Sie wollen. Sie kann mehrere Absätze und sogar Listen enthalten. Sie kann Links zu anderen Seiten oder Websites enthalten. Sie kann Bilder und Videos enthalten. Sie kann alles enthalten, was Sie wollen.",
-  "shortDescription": "Sehr kurze Beschreibung, die das Wesentliche des Projekts in wenigen Worten wiedergibt.",
-  "thumbnail": {
-  "src": "/siteAssets/stockfoto1.jpg",
-  "alt": "Archivfoto 1"
-  },
-  "tags": [
-    "Mixed Reality",
-    "Web Development",
-    "Interaction Design",
-    "User Experience",
-    "User Interface",
-    "Frontend Development",
-    "Backend Development"
-  ],
-  "url": "https://github.com/",
-  "team": "Max Mustermann, Maxine Musterfrau",
-  "subtitle": "Dies ist ein Untertitel des Projekts",
-  "techStack" : [
-    "HTML",
-    "CSS",
-    "JavaScript"
-  ],
-  "projectDuration" : "3 Monate",
-  "content" : [{
-      "title": "Abschnitt 1",
-      "body": "Dies ist ein Abschnittskörper. Er kann so lang sein, wie Sie es wünschen. Er kann mehrere Absätze und sogar Listen enthalten. Er kann Links zu anderen Seiten oder Websites enthalten. Er kann Bilder und Videos enthalten. Er kann alles enthalten, was Sie wollen.",
-      "graphics": [
-        {
-          "src": "/siteAssets/stockfoto1.jpg",
-          "alt": "Stock photo 1"
-        }
-      ]
+    "title": "Projekt 2",
+    "id": 2,
+    "subtitle": "Beispiel für linktype \"demo\"",
+    "projectDuration": "6 Wochen im Wintersemester 2024/25",
+    "team": "Max Mustermann (Entwicklung), Maxine Musterfrau (Design)",
+    "myParts": [
+        "Konzeption und Anforderungsermittlung",
+        "Umsetzung des Frontends",
+        "Nutzertests und Auswertung"
+    ],
+    "longDescription": "Der Einstieg in das Projekt: Worum ging es, für wen und in welchem Kontext? Zwei bis drei Sätze reichen hier – die Details folgen in den Abschnitten darunter.<br/> HTML ist erlaubt, du kannst also Zeilenumbrüche und Links einbauen.",
+    "shortDescription": "Sehr kurze Beschreibung, die das Wesentliche des Projekts in wenigen Worten wiedergibt.",
+    "thumbnail": {
+        "src": "/siteAssets/stockfoto1.jpg",
+        "alt": "Archivfoto 1"
     },
-    {
-      "title": "Abscnhitt 2",
-      "body": "Dies ist ein Abschnittskörper. Er kann so lang sein, wie Sie es wünschen. Er kann mehrere Absätze und sogar Listen enthalten. Er kann Links zu anderen Seiten oder Websites enthalten. Er kann Bilder und Videos enthalten. Er kann alles enthalten, was Sie wollen.",
-      "graphics": [
+    "tags": [
+        "Mixed Reality",
+        "Unity",
+        "C#",
+        "Game Design"
+    ],
+    "techStack": [
+        "Unity",
+        "C#"
+    ],
+    "url": "https://example.com/",
+    "linktype": "demo",
+    "sections": [
         {
-          "src": "/siteAssets/stockfoto2.jpg",
-          "alt": "Stock photo 2"
-        }        ]
-    },
-    {
-      "title": "Abschnitt 3",
-      "body": "Dies ist ein Abschnittskörper. Er kann so lang sein, wie Sie es wünschen. Er kann mehrere Absätze und sogar Listen enthalten. Er kann Links zu anderen Seiten oder Websites enthalten. Er kann Bilder und Videos enthalten. Er kann alles enthalten, was Sie wollen.",
-      "graphics": [
+            "title": "Herausforderung",
+            "body": "Welches Problem sollte gelöst werden und warum war es schwierig? Beschreibe die Ausgangslage, die Zielgruppe und die Randbedingungen, unter denen ihr gearbeitet habt."
+        },
         {
-          "src": "/siteAssets/stockfoto3.jpg",
-          "alt": "Stock photo 3"
+            "title": "Herangehensweise",
+            "body": "Wie seid ihr vorgegangen? Welche Entscheidungen hast du getroffen und warum? Hier gehört dein eigener Anteil hin – Methoden, Iterationen, auch Verworfenes."
+        },
+        {
+            "title": "Ergebnis",
+            "body": "Was ist am Ende entstanden und was hat es bewirkt? Messbare Ergebnisse sind stark, qualitative Wirkung zählt aber genauso."
         }
-
-      ]
-  }
-  ]
+    ],
+    "images": [
+        {
+            "src": "/siteAssets/stockfoto1.jpg",
+            "alt": "Bildunterschrift: Sie wird unter dem Bild und in der Großansicht angezeigt."
+        },
+        {
+            "src": "/siteAssets/stockfoto2.jpg",
+            "alt": "Beschreibe, was zu sehen ist – das dient zugleich der Barrierefreiheit."
+        },
+        {
+            "src": "/siteAssets/stockfoto3.jpg",
+            "alt": "Beliebig viele Bilder möglich, sie erscheinen als Galerie."
+        }
+    ]
 }

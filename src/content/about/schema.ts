@@ -16,6 +16,7 @@ export const about = defineCollection({
             description: z.string(),
             dateStart: z.string().transform((str) => new Date(str)),
             dateEnd: z.string().transform((str) => new Date(str)).optional(),
+            locationUrl: z.string().url().optional(),
             type: z.nativeEnum(IconType),
         })),
     }),

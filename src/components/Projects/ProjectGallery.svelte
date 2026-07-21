@@ -40,9 +40,12 @@
         <img
           src={project.data.thumbnail.src}
           alt={project.data.thumbnail.alt}
-          class=" rounded-lg mb-4 object-cover aspect-square"
+          class="w-full rounded-lg mb-1 object-cover aspect-square"
         />
-        <div class="flex flex-wrap gap-2 mt-4 min-w-56">
+        <h2 class="text-2xl mt-1 mb-6 text-gray-100 self-center text-center">
+          {project.data.title}
+        </h2>
+        <div class="flex flex-wrap gap-2 min-w-56">
           {#each project.data.tags as tag}
             {@const tagData = availableTags.find((t) => t.name === tag)}
             {#if tagData}
@@ -50,10 +53,7 @@
             {/if}
           {/each}
         </div>
-        <h2 class="text-2xl mt-4 mb-1 text-gray-100">
-          {project.data.title}
-        </h2>
-        <p class="text-gray-300">{project.data.shortDescription}</p>
+        <p class="text-gray-300 mt-6">{project.data.shortDescription}</p>
       </a>
     </GlassCard>
   </div>

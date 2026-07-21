@@ -1,6 +1,7 @@
 export interface TimelineData {
     title: string;
     location: string;
+    locationUrl?: string;
     description: string;
     dateStart: Date;
     dateEnd: Date | undefined;

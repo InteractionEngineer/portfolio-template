@@ -1,12 +1,13 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { getEntry } from "astro:content";
-import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { getLangFromUrl, useTranslations, useTranslatedPath } from '../../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const landingpage = await getEntry('landingpage', `${lang}/data`);
 const personal = await getEntry('personal', `${lang}/data`);
 const fromDict = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
 ---
 
 <Base title={personal.data.fullName}>
@@ -19,7 +20,7 @@ const fromDict = useTranslations(lang);
       />
       <div class="text-left">
         <h1 class="text-4xl font-bold tracking-tight text-gray-100 sm:text-6xl">
-          {landingpage.data.slogan}
+          <Fragment set:html={landingpage.data.slogan} />
         </h1>
         <p class="mt-6 text-lg leading-8 text-gray-300">
           {landingpage.data.introduction}
@@ -28,12 +29,12 @@ const fromDict = useTranslations(lang);
     </div>
       <div class="mt-4 md:mt-8 flex items-center justify-center gap-x-12">
       <a
-        href="projects/"
+        href={translatePath("/projects/")}
         class="rounded-md bg-white/20 px-7 py-5 text-sm lg:text-md font-semibold text-gray-100 shadow-sm hover:bg-white/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 hover:scale-110 transform transition duration-300 ease-in-out"
         >{fromDict('home.cta.primary')}</a
       >
       <a
-        href="aboutMe/"
+        href={translatePath("/aboutMe/")}
         class="text-sm lg:text-md font-semibold leading-6 text-gray-100"
         >{fromDict('home.cta.secondary')} <span aria-hidden="true">→</span></a
       >

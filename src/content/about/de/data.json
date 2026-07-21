@@ -7,84 +7,43 @@
     "imageAlt": "A picture of me",
     "timeLineData": [
         {
-            "title": "Software Engineer",
-            "location": "Company A",
-            "dateStart": "2020-09-01",
-            "description": "Worked on a team of developers to build and maintain a large web application.",
-            "type": "Work"
+            "title": "Senior-Entwickler",
+            "location": "Firma A",
+            "dateStart": "2022-03-01",
+            "description": "Leitung eines kleinen Teams beim Aufbau und Betrieb einer großen Webanwendung.",
+            "type": "Work",
+            "locationUrl": "https://example.com/"
         },
         {
-            "title": "Web Developer",
-            "location": "Company B",
-            "dateStart": "2018-09-01",
-            "dateEnd": "2020-09-01",
-            "description": "Developed and maintained websites for a variety of clients.",
-            "type" : "Volunteer"
+            "title": "AWS Certified Solutions Architect",
+            "location": "Amazon Web Services",
+            "dateStart": "2021-06-01",
+            "dateEnd": "2021-06-01",
+            "description": "Zertifizierung für die Architektur skalierbarer Cloud-Systeme.",
+            "type": "Certification"
         },
         {
-            "title": "Junior Developer",
-            "location": "Company C",
+            "title": "Open-Source-Maintainer",
+            "location": "Community-Projekt",
+            "dateStart": "2020-01-01",
+            "description": "Ehrenamtliche Pflege einer verbreiteten Open-Source-Bibliothek.",
+            "type": "Volunteer"
+        },
+        {
+            "title": "B.Sc. Informatik",
+            "location": "Hochschule X",
             "dateStart": "2017-09-01",
-            "dateEnd": "2018-09-01",
-            "description": "Assisted senior developers with building and maintaining web applications.",
+            "dateEnd": "2020-09-01",
+            "description": "Studium mit Schwerpunkt Mensch-Computer-Interaktion.",
             "type": "Education"
         },
         {
-            "title": "Web Development Intern",
-            "location": "Company D",
+            "title": "Programmier-Bootcamp",
+            "location": "Bootcamp Y",
             "dateStart": "2016-09-01",
-            "dateEnd": "2017-09-01",
-            "description": "Worked on a team of developers to build and maintain a large web application.",
-            "type": "Work"
-        },
-        {
-            "title": "Software Engineer",
-            "location": "Company E",
-            "dateStart": "2015-09-01",
-            "dateEnd": "2016-09-01",
-            "description": "Developed and maintained websites for a variety of clients.",
-            "type" : "Volunteer"
-        },
-        {
-            "title": "Junior Developer",
-            "location": "Company F",
-            "dateStart": "2014-09-01",
-            "dateEnd": "2015-09-01",
-            "description": "Assisted senior developers with building and maintaining web applications.",
-            "type": "Education"
-        },
-        {
-            "title": "Web Development Intern",
-            "location": "Company G",
-            "dateStart": "2013-09-01",
-            "dateEnd": "2014-09-01",
-            "description": "Worked on a team of developers to build and maintain a large web application.",
-            "type": "Work"
-        },
-        {
-            "title": "Software Engineer",
-            "location": "Company H",
-            "dateStart": "2012-09-01",
-            "dateEnd": "2013-09-01",
-            "description": "Developed and maintained websites for a variety of clients.",
-            "type" : "Volunteer"
-        },
-        {
-            "title": "Junior Developer",
-            "location": "Company I",
-            "dateStart": "2011-09-01",
-            "dateEnd": "2012-09-01",
-            "description": "Assisted senior developers with building and maintaining web applications.",
-            "type": "Education"
-        },
-        {
-            "title": "Web Development Intern",
-            "location": "Company J",
-            "dateStart": "2010-09-01",
-            "dateEnd": "2011-09-01",
-            "description": "Worked on a team of developers to build and maintain a large web application.",
-            "type": "Work"
+            "dateEnd": "2017-06-01",
+            "description": "Intensivkurs Webentwicklung als Quereinstieg.",
+            "type": "Other"
         }
-        
     ]
 }

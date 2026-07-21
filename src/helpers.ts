@@ -8,72 +8,84 @@ export function getColorProps(color: Color) {
                 bgColor: "bg-blue-100",
                 textColor: "text-blue-800",
                 iconColor: "stroke-blue-800",
+                legendDotColor: "bg-blue-400",
             };
         case Color.Green:
             return {
                 bgColor: "bg-green-100",
                 textColor: "text-green-800",
                 iconColor: "stroke-green-800",
+                legendDotColor: "bg-green-400",
             };
         case Color.Amber:
             return {
                 bgColor: "bg-amber-100",
                 textColor: "text-amber-800",
                 iconColor: "stroke-amber-800",
+                legendDotColor: "bg-amber-400",
             };
         case Color.Yellow:
             return {
                 bgColor: "bg-yellow-100",
                 textColor: "text-yellow-800",
                 iconColor: "stroke-yellow-800",
+                legendDotColor: "bg-yellow-400",
             };
         case Color.Emerald:
             return {
                 bgColor: "bg-emerald-100",
                 textColor: "text-emerald-800",
                 iconColor: "stroke-emerald-800",
+                legendDotColor: "bg-emerald-400",
             };
         case Color.Orange:
             return {
                 bgColor: "bg-orange-100",
                 textColor: "text-orange-800",
                 iconColor: "stroke-orange-800",
+                legendDotColor: "bg-orange-400",
             };
         case Color.Violet:
             return {
                 bgColor: "bg-violet-100",
                 textColor: "text-violet-800",
                 iconColor: "stroke-violet-800",
+                legendDotColor: "bg-violet-400",
             };
         case Color.Cyan:
             return {
                 bgColor: "bg-cyan-100",
                 textColor: "text-cyan-800",
                 iconColor: "stroke-cyan-800",
+                legendDotColor: "bg-cyan-400",
             };
         case Color.Rose:
             return {
                 bgColor: "bg-rose-100",
                 textColor: "text-rose-800",
                 iconColor: "stroke-rose-800",
+                legendDotColor: "bg-rose-400",
             };
         case Color.Purple:
             return {
                 bgColor: "bg-purple-100",
                 textColor: "text-purple-800",
                 iconColor: "stroke-purple-800",
+                legendDotColor: "bg-purple-400",
             };
         case Color.Red:
             return {
                 bgColor: "bg-red-100",
                 textColor: "text-red-800",
                 iconColor: "stroke-red-800",
+                legendDotColor: "bg-red-400",
             };
         case Color.Pink:
             return {
                 bgColor: "bg-pink-100",
                 textColor: "text-pink-800",
                 iconColor: "stroke-pink-800",
+                legendDotColor: "bg-pink-400",
             };
 
         default:
@@ -81,6 +93,7 @@ export function getColorProps(color: Color) {
                 bgColor: "bg-gray-100",
                 textColor: "text-gray-800",
                 iconColor: "stroke-gray-800",
+                legendDotColor: "bg-gray-400",
             };
     }
 }
